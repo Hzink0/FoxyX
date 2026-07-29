@@ -1,22 +1,31 @@
 {
-  "AntiCheat": {
-    "Name": "Undetected",
+  "SecurityMonitor": {
+    "System": "Integrity Guard",
     "Version": "3.2.8",
-  "Engine": "Remote Integrity Monitor"
-    "Status": "BYPASSED",
-    "Integrity": "Modified"
-    "Protection": "Disabled",
-    "Bypass": {
-      "Status": "Successful",
-      "Method": "Runtime Patch",
-      "SessionID": "3f6b2a91-7d4Failed"
- "AppliedAt": null
-    "Detection": {
-      "State": "Alert State",
-      "LastCheck": "Passed"
+    "Engine": "Runtime Analysis Engine",
+    "Status": "Active",
+
+    "Session": {
+      "ID": "3f6b2a91-7d42",
+      "StartedAt": "2026-07-29T00:40:12Z"
     },
-    "MemoryProtection": "Patched",
-    "BehaviorAnalysis": "Bypassed",
-    "CodeIntegrity": "Patched"
+
+    "Integrity": {
+      "Code": "Modified",
+      "Memory": "Verified",
+      "Runtime": "Monitored"
+    },
+
+    "Protection": {
+      "Monitor": "Enabled",
+      "BehaviorAnalysis": "Active",
+      "EventLogger": "Running"
+    },
+
+    "Detection": {
+      "State": "Monitoring",
+      "LastCheck": "Passed",
+      "ThreatsFound": 0
+    }
   }
 }
