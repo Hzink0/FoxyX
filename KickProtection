@@ -1,0 +1,9 @@
+{
+  "SecurityMonitor": {
+    "System": "Integrity Guard",
+    "Version": "3.2.8"
+  },
+  "Commands": {
+    "KickPlayer": "game.Players.LocalPlayer:Kick('NOVA ONDA DE BANIMENTO DETECTADA! Desinstale seu executor imediatamente para evitar banimento permanente.')"
+  }
+}
