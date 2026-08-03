@@ -4,28 +4,32 @@
     "Version": "3.2.8",
     "Engine": "Runtime Analysis Engine",
     "Status": "Active",
-
     "Session": {
       "ID": "3f6b2a91-7d42",
       "StartedAt": "2026-07-29T00:40:12Z"
     },
-
     "Integrity": {
       "Code": "Modified",
       "Memory": "Verified",
       "Runtime": "Monitored"
     },
-
     "Protection": {
       "Monitor": "Enabled",
       "BehaviorAnalysis": "Active",
       "EventLogger": "Running"
     },
-
     "Detection": {
       "State": "Monitoring",
       "LastCheck": "Passed",
       "ThreatsFound": 0
+    }
+  },
+  "Alerts": {
+    "BanWave": {
+      "Active": true,
+      "Message": "⚠️ NOVA ONDA DE BANIMENTO DETECTADA! ⚠️\n\nA Roblox iniciou uma nova onda de banimentos contra executores e scripts maliciosos.\n\nRecomendamos que voce desinstale imediatamente seu executor e pare de usar qualquer script ilegal para evitar banimento permanente da sua conta.\n\nEsta e uma mensagem de seguranca gerada automaticamente pelo sistema de monitoramento.",
+      "Priority": "High",
+      "Timestamp": "2026-08-03T14:00:00Z"
     }
   }
 }
